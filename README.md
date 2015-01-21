@@ -7,7 +7,7 @@ have the corresponding apps installed and logged in.
 
 This repo uses wizcorps facebook login plugin for facebook auth.
 
-<h5>Step 1: Goto Developers.facebook.com</h5>
+<h5>Step 1: Goto</h5> https://www.developers.facebook.com
 
 ![Alt text](./screenshots/facebook/1.png?raw=true "Goto developers.facebook.com")
 
@@ -51,8 +51,11 @@ and the password for the debug.keystore is ``` android ```
 
 Then setup your email and make your app publicly available under status and review.
 
-
 ![Alt text](./screenshots/facebook/6.png?raw=true "Keytool")
+
+<h5>Finally explore the graph api at: https://developers.facebook.com/tools/explorer/ </h5>
+
+![Alt text](./screenshots/facebook/7.png?raw=true "Working!!!")
 
 
 
