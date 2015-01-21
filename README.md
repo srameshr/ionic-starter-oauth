@@ -7,7 +7,7 @@ have the corresponding apps installed and logged in.
 
 This repo uses wizcorps facebook login plugin for facebook auth.
 
-<h5>Step 1: Goto</h5> https://www.developers.facebook.com
+<h5>Step 1: Goto https://www.developers.facebook.com </h5> 
 
 ![Alt text](./screenshots/facebook/1.png?raw=true "Goto developers.facebook.com")
 
