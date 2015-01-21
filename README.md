@@ -42,7 +42,7 @@ cordova -d plugin add /path/to/cloned/phonegap-facebook-plugin --variable APP_ID
 <p>Note that you should replace the app id and app name as mentioned in step 4.</p>
 <p> For example I would do:</p>
 ```
-cordova -d plugin add ./phonegap-facebook-plugin-master/ --variable APP_ID="809387279194163" --variable APP_NAME="testApp"
+cordova -d plugin add ./phonegap-facebook-plugin-master/ --variable APP_ID="803657845698125" --variable APP_NAME="testApp"
 
 ```
 <h5>Step 6: Once the plugin has been added you need to set up hash keys(Android) and make the app publicly available so that everybody can start using it or testing it. Go to your app setting and click on "Add a platform"</h5>
@@ -73,7 +73,10 @@ This repo uses EddyVerbruggen's Googleplus login plugin for google+ auth.
 <h4>Note: While enabling the Googleplus API, from the google developers console you will notice in step 6 which says
 "copy and paste the below package name". Please dont do that. Use the package name that is defined in your config.xml file.
 This is how your android app is verified without the API key. For example the package name for me was: </h4>
- ```com.ionicframework.ionicoauth302922```
+
+ ```
+ com.ionicframework.ionicoauth302922
+ ```
 
 
 
