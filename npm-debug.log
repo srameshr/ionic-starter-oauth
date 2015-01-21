@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'gulp' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json ionic-oauth@1.0.0 No repository field.
+5 warn package.json ionic-oauth@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'gulp@^3.5.6', null ]
+8 verbose cache add name=undefined spec="gulp@^3.5.6" args=["gulp@^3.5.6",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp@^3.5.6',
+9 verbose parsed url   path: 'gulp@^3.5.6',
+9 verbose parsed url   href: 'gulp@^3.5.6' }
+10 verbose cache add name="gulp" spec="^3.5.6" args=["gulp","^3.5.6"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '^3.5.6',
+11 verbose parsed url   path: '^3.5.6',
+11 verbose parsed url   href: '^3.5.6' }
+12 verbose addNamed [ 'gulp', '^3.5.6' ]
+13 verbose addNamed [ null, '>=3.5.6-0 <4.0.0-0' ]
+14 silly lockFile 28ac0b1b-gulp-3-5-6 gulp@^3.5.6
+15 verbose lock gulp@^3.5.6 /home/siddhartha/.npm/28ac0b1b-gulp-3-5-6.lock
+16 silly addNameRange { name: 'gulp', range: '>=3.5.6-0 <4.0.0-0', hasData: false }
+17 verbose request where is /gulp
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 8b59785dc3621cf2
+20 verbose url raw /gulp
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+22 verbose url resolved https://registry.npmjs.org/gulp
+23 verbose request where is https://registry.npmjs.org/gulp
+24 info trying registry request attempt 1 at 12:33:24
+25 verbose etag "41RLYIX94SYUKFH93JWVEMI4S"
+26 http GET https://registry.npmjs.org/gulp
+27 http 200 https://registry.npmjs.org/gulp
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Wed, 21 Jan 2015 07:03:25 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"1XDOH4N1WE015AS5ET10A0WOM"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '97011',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '51',
+28 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1421823805.175116,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'gulp', range: '>=3.5.6-0 <4.0.0-0', hasData: true }
+30 silly addNameRange versions [ 'gulp',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.0.9',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.2.0',
+30 silly addNameRange     '2.3.0',
+30 silly addNameRange     '2.4.0',
+30 silly addNameRange     '2.4.1',
+30 silly addNameRange     '2.6.0',
+30 silly addNameRange     '2.6.1',
+30 silly addNameRange     '2.7.0',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.1.1',
+30 silly addNameRange     '3.1.2',
+30 silly addNameRange     '3.1.3',
+30 silly addNameRange     '3.1.4',
+30 silly addNameRange     '3.2.0',
+30 silly addNameRange     '3.2.1',
+30 silly addNameRange     '3.2.2',
+30 silly addNameRange     '3.2.3',
+30 silly addNameRange     '3.2.4',
+30 silly addNameRange     '3.2.5',
+30 silly addNameRange     '3.3.0',
+30 silly addNameRange     '3.3.1',
+30 silly addNameRange     '3.3.2',
+30 silly addNameRange     '3.3.4',
+30 silly addNameRange     '3.4.0',
+30 silly addNameRange     '3.5.0',
+30 silly addNameRange     '3.5.1',
+30 silly addNameRange     '3.5.2',
+30 silly addNameRange     '3.5.5',
+30 silly addNameRange     '3.5.6',
+30 silly addNameRange     '3.6.0',
+30 silly addNameRange     '3.6.1',
+30 silly addNameRange     '3.6.2',
+30 silly addNameRange     '3.7.0',
+30 silly addNameRange     '3.8.0',
+30 silly addNameRange     '3.8.1',
+30 silly addNameRange     '3.8.2',
+30 silly addNameRange     '3.8.3',
+30 silly addNameRange     '3.8.4',
+30 silly addNameRange     '3.8.5',
+30 silly addNameRange     '3.8.6',
+30 silly addNameRange     '3.8.7',
+30 silly addNameRange     '3.8.8',
+30 silly addNameRange     '3.8.9',
+30 silly addNameRange     '3.8.10' ] ]
+31 verbose addNamed [ 'gulp', '3.8.10' ]
+32 verbose addNamed [ '3.8.10', '3.8.10' ]
+33 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+34 verbose lock gulp@3.8.10 /home/siddhartha/.npm/f843d0d7-gulp-3-8-10.lock
+35 silly lockFile b3287162-y-npmjs-org-gulp-gulp-3-8-10-tgz https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+36 verbose lock https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz /home/siddhartha/.npm/b3287162-y-npmjs-org-gulp-gulp-3-8-10-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz',
+37 verbose addRemoteTarball   'bfb8fc156be97820f02a7f8b3af61a86666f9e31' ]
+38 info retry fetch attempt 1 at 12:33:26
+39 verbose fetch to= /tmp/npm-4098-NTchGb8f/registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+40 http GET https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+41 http 200 https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+42 silly lockFile b3287162-y-npmjs-org-gulp-gulp-3-8-10-tgz https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+43 silly lockFile b3287162-y-npmjs-org-gulp-gulp-3-8-10-tgz https://registry.npmjs.org/gulp/-/gulp-3.8.10.tgz
+44 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+45 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+46 silly lockFile 28ac0b1b-gulp-3-5-6 gulp@^3.5.6
+47 silly lockFile 28ac0b1b-gulp-3-5-6 gulp@^3.5.6
+48 error Error: EACCES, mkdir '/home/siddhartha/.npm/gulp/3.8.10'
+48 error  { [Error: EACCES, mkdir '/home/siddhartha/.npm/gulp/3.8.10']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/home/siddhartha/.npm/gulp/3.8.10',
+48 error   parent: 'ionic-oauth' }
+49 error Please try running this command again as root/Administrator.
+50 error System Linux 3.11.0-12-generic
+51 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp"
+52 error cwd /home/siddhartha/Desktop/programming/codes/project/ionic-oauth
+53 error node -v v0.10.35
+54 error npm -v 1.4.28
+55 error path /home/siddhartha/.npm/gulp/3.8.10
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/home/siddhartha/.npm/gulp/3.8.10'
+59 verbose exit [ 3, true ]
