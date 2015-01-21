@@ -3,7 +3,7 @@ Ionic starter template that includes Facebook and Google open auth login through
 What is the advantage? For starters your users need not enter their user-id and password to login considering they
 have the corresponding apps installed and logged in.
 
-Facebook setup.
+<h3>Facebook setup.</h3>
 
 This repo uses wizcorps facebook login plugin for facebook auth.
 
