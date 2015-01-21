@@ -42,4 +42,15 @@ cordova -d plugin add ./phonegap-facebook-plugin-master/ --variable APP_ID="8093
 
 ![Alt text](./screenshots/facebook/5.png?raw=true "Add platform")
 
+<h5>Step 7: Fill out the details and if you are on Android you have to generate key hash using the command (if you dont have your app keystore set and your apk is not release ready). Then setup your email and make your app publicly available under status and review.</h5>
+
+```
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+```
+and the password for the debug.keystore is ``` android ```
+
+![Alt text](./screenshots/facebook/6.png?raw=true "Keytool")
+
+
+
 
