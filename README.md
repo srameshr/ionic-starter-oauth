@@ -8,7 +8,10 @@ If you want to see a working demo of this, then install the ionic-outh.apk that 
 <h6>After cloning this repo: </h6>
 <ul><li>Add platform IOS or Android</li>
 <li>If you are using both google and facebook login, you will notice a jar file mismatch error when building.
-To overcome this delete the jar file in the directory:</li>``` platforms/android/libs```
+To overcome this delete the jar file in the directory:</li>
+```
+ platforms/android/libs
+ ```
 <li>Also this repo makes use of Ionicons 2.0 and angular wrapper for googlePlus plugin which is not yet integrated into
 the official ngCordova repo.</li></ul>
 
@@ -79,6 +82,15 @@ This is how your android app is verified without the API key. For example the pa
  ```
  com.ionicframework.ionicoauth302922
  ```
+Available methods:
+```
+$cordovaGooglePlus.login()
 
+$cordovaGooglePlus.silentLogin()
+
+$cordovaGooglePlus.logout()
+
+$cordovaGooglePlus.disconnect()
+```
 
 
