@@ -69,6 +69,7 @@ Then setup your email and make your app publicly available under status and revi
 <h5>Finally explore the graph api at: https://developers.facebook.com/tools/explorer/ </h5>
 
 ![Alt text](./screenshots/facebook/7.png?raw=true "Working!!!")
+![Alt text](./screenshots/facebook/8.png?raw=true "Graph api")
 
 
 <h3>Google Setup</h3>
