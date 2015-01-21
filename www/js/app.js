@@ -47,6 +47,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
     	 * "me" refers to the user who logged in. Dont confuse it as some hardcoded string variable. 
     	 * 
     	*/
+    	//To know more available fields go to https://developers.facebook.com/tools/explorer/
     	$cordovaFacebook.api("me?fields=id,name,picture", [])
     	.then(function(result){
     		/*

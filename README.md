@@ -14,6 +14,7 @@ If you want to see a working demo of this, then install the ionic-outh.apk that 
 To overcome this delete the jar file in the directory:</li>
 ```
  platforms/android/libs
+ 
  ```
 <li>Also this repo makes use of Ionicons 2.0 and angular wrapper for googlePlus plugin which is not yet integrated into
 the official ngCordova repo.</li></ul>
