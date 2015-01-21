@@ -32,7 +32,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
   });
 })
 
-.controller('SignUpController', function($scope, $cordovaFacebook, $cordovaGooglePlus){
+.controller('SignUpController', function($scope, $cordovaFacebook, $cordovaGooglePlus, $ionicLoading){
 	/*
 	 * Learn how facebooks graph api works: https://developers.facebook.com/docs/graph-api/quickstart/v2.2
 	 * The array params "public_profile", "email", "user_friends" are the permissions / data that the app is trying to access.
@@ -80,6 +80,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
 	$scope.googleLogin = function(){
 
+		$ionicLoading.show({template: 'Loading...'}); 
 		/*
 		 * Google login. This requires an API key if the platform is "IOS".
 		 * Example: $cordovaGooglePlus.login('yourApiKey')
@@ -88,13 +89,15 @@ angular.module('starter', ['ionic', 'ngCordova'])
 		.then(function(data){
 			
 			$scope.googleData = JSON.stringify(data, null, 4);
+			$ionicLoading.hide();
 
 		}, function(error){
 			
 			// Google returns error message due to which login was cancelled.
       // Depending on your platform show the message inside the appropriate UI widget
       // For example, show the error message inside a toast notification on Android
-      
+      $ionicLoading.hide();
+
 		});
 	}
 })
