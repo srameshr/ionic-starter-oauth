@@ -3,12 +3,12 @@ Ionic starter template that includes Facebook and Google open auth login through
 What is the advantage? For starters your users need not enter their user-id and password to login considering they
 have the corresponding apps installed and logged in.
 
-<h2>If you want to see a working demo of this, then install the ionic-outh.apk that is present in the demos folder</h2>
+If you want to see a working demo of this, then install the ionic-outh.apk that is present in the demos folder
 
-<h3>After cloning this repo: </h3>
-<h3>Add platform IOS or Android</h3>
-<h3>If you are using both google and facebook login, you will notice a jar file mismatch error when building.
-To overcome this delete the jar file in ``` platforms/android/libs``` directory.</h3>
+<h6>After cloning this repo: </h6>
+<ul><li>Add platform IOS or Android</li>
+<li>If you are using both google and facebook login, you will notice a jar file mismatch error when building.
+To overcome this delete the jar file in the directory:</li>``` platforms/android/libs```
 
 <h3>Facebook setup.</h3>
 
@@ -64,7 +64,6 @@ Then setup your email and make your app publicly available under status and revi
 
 ![Alt text](./screenshots/facebook/7.png?raw=true "Working!!!")
 
-<pre>================================================================================================================</pre>
 
 <h3>Google Setup</h3>
 
@@ -73,7 +72,8 @@ This repo uses EddyVerbruggen's Googleplus login plugin for google+ auth.
 <h5>Step 1: Follow the instructions at: https://github.com/EddyVerbruggen/cordova-plugin-googleplus .</h5>
 <h4>Note: While enabling the Googleplus API, from the google developers console you will notice in step 6 which says
 "copy and paste the below package name". Please dont do that. Use the package name that is defined in your config.xml file.
-This is how your android app is verified without the API key. For example the package name for me was ```com.ionicframework.ionicoauth302922```</h4>
+This is how your android app is verified without the API key. For example the package name for me was: </h4>
+ ```com.ionicframework.ionicoauth302922```
 
 
 
