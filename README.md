@@ -3,10 +3,13 @@ Ionic starter template that includes Facebook and Google open auth login through
 What is the advantage? For starters your users need not enter their user-id and password to login considering they
 have the corresponding apps installed and logged in.
 
+This starter template does everything for you. All you have to do is, install the plugins as mentioned below
+and decide what to do with users data after they login. 
+
 If you want to see a working demo of this, then install the ionic-outh.apk that is present in the demos folder
 
 <h6>After cloning this repo: </h6>
-<ul><li>Add platform IOS or Android</li>
+<ul><li>Add platform IOS or Android. When done, follow the steps mentioned for facebook, google or both.</li>
 <li>If you are using both google and facebook login, you will notice a jar file mismatch error when building.
 To overcome this delete the jar file in the directory:</li>
 ```
