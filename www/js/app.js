@@ -32,7 +32,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
   });
 })
 
-.controller('SignUpController', function($scope, $cordovaFacebook){
+.controller('SignUpController', function($scope, $cordovaFacebook, $cordovaGooglePlus){
 	/*
 	 * Learn how facebooks graph api works: https://developers.facebook.com/docs/graph-api/quickstart/v2.2
 	 * The array params "public_profile", "email", "user_friends" are the permissions / data that the app is trying to access.
@@ -58,9 +58,9 @@ angular.module('starter', ['ionic', 'ngCordova'])
     			name: result.name,
     			pic: result.picture.data.url
     		}
-
-    		console.log(JSON.stringify(userData))
-    		alert(JSON.stringify(userData)); 
+    		//Do what you wish to do with user data. Here we are just displaying it in the view
+    		$scope.fbData = JSON.stringify(userData, null, 4);
+    		
 
     	}, function(error){
     		// Error message
@@ -77,6 +77,26 @@ angular.module('starter', ['ionic', 'ngCordova'])
 	/*
 	 * Google login
 	*/
+
+	$scope.googleLogin = function(){
+
+		/*
+		 * Google login. This requires an API key if the platform is "IOS".
+		 * Example: $cordovaGooglePlus.login('yourApiKey')
+		*/
+		$cordovaGooglePlus.login()
+		.then(function(data){
+			
+			$scope.googleData = JSON.stringify(data, null, 4);
+
+		}, function(error){
+			
+			// Google returns error message due to which login was cancelled.
+      // Depending on your platform show the message inside the appropriate UI widget
+      // For example, show the error message inside a toast notification on Android
+      
+		});
+	}
 })
 
 
