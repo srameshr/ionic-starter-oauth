@@ -20,7 +20,7 @@ the official ngCordova repo.</li></ul>
 
 This repo uses wizcorps facebook login plugin for facebook auth.
 
-<h5>Step 1: Goto https://developers.facebook.com </h5> 
+<h5>Step 1: Goto https://www.developers.facebook.com </h5> 
 
 ![Alt text](./screenshots/facebook/1.png?raw=true "Goto developers.facebook.com")
 
@@ -77,7 +77,7 @@ Then setup your email and make your app publicly available under status and revi
 This repo uses EddyVerbruggen's Googleplus login plugin for google+ auth.
 
 <h5>Step 1: Follow the instructions at: https://github.com/EddyVerbruggen/cordova-plugin-googleplus .</h5>
-<h4>Note: While enabling the Googleplus API, from the google developers console you will notice in step 6 which says
+<h4>Note: While enabling the Google+ API, from the [Google Developers Console](https://console.developers.google.com) you will notice in step 6 which says
 "copy and paste the below package name". Please dont do that. Use the package name that is defined in your config.xml file.
 This is how your android app is verified without the API key. For example the package name for me was: </h4>
 
